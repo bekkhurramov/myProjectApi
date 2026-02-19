@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import { useAuthStore } from "../store/auth.js";
+import { useAuthStore } from "../store/Auth.js";
 const auth = useAuthStore();
 const phone = ref("");
 const password = ref("");
